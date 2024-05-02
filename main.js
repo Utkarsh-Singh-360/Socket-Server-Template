@@ -81,3 +81,7 @@ const broadcast = (ws, message, includeSelf) => {
 app.get('/', (req, res) => {
     res.send('Hello World!');
 });
+
+app.get('/t1', (req, res) => {
+  res.send('Hello World t1!');
+});
